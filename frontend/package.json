@@ -33,7 +33,7 @@
     "clean:wwwroot": "rimraf -- ../backend-nodejs/wwwroot/js ../backend-nodejs/wwwroot/assets ../backend-nodejs/wwwroot/css",
     "clean:wwwroot:dlls": "rimraf -- ../backend-nodejs/wwwroot/dlls",
     "clean:tsccompile": "npm run clean:tsccompile:misc && npm run clean:tsccompile:js",
-    "clean:tsccompile:misc": "cd ./src && del *.ngfactory.ts *.ngfactory.js *.js.map *.metadata.json /s",
+    "clean:tsccompile:misc": "cd ./src && del *.ngfactory.ts *.ngfactory.js *.js.map *.json /s",
     "clean:tsccompile:js": "cd ./src/app-components && del *.js /s",
     "clean:compile": "rimraf -- compiled",
     "clean:install": "npm run clean && npm run npm:install",

@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2c202d0-17d6-45f3-b265-00c6edcfbc4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/MaterialIcons-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/MaterialIcons-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/MaterialIcons-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/MaterialIcons-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/MaterialIcons-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/OpenSans-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/fonts/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/Down Arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/admin_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/alert-notifications.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/assign_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/close_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/dashboard_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/full_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/fullscreen-enter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/fullscreen-exit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/logo icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/nav_down_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/open_close_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/profile-picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/reports_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/search icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/search_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/sm_nav_down_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/icons/subscriber_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/images/login-ellipse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/images/logo-helios-login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/images/password-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/images/user-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/mock-data/mock-data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/assets/service-worker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/js/app.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/js/chunks/0.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/js/chunks/1.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/js/commons.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/js/maps/app.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/js/webpack.assets.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/app.component.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/feature/feature.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/feature/lazy-feature.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/lazy.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/main.jit.ts" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/webpack.common.js" afterPath="$PROJECT_DIR$/frontend/config/webpack.common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,47 +18,17 @@
         <entry file="file://$PROJECT_DIR$/frontend/config/webpack.common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+              <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app-components/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="25" column="62" lean-forward="false" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.development.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/webpack.development.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3259">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.debug-production.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/webpack.debug-production.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="109" lean-forward="false" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
+            <state relative-caret-position="357">
+              <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -193,8 +103,8 @@
         <option value="$PROJECT_DIR$/frontend/src/app-components/app/main.jit.ts" />
         <option value="$PROJECT_DIR$/frontend/webpack.config.js" />
         <option value="$PROJECT_DIR$/frontend/tsconfig.json" />
-        <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/config/webpack.common.js" />
+        <option value="$PROJECT_DIR$/frontend/package.json" />
       </list>
     </option>
   </component>
@@ -282,6 +192,12 @@
               <item name="ng2-aot" type="b2602c69:ProjectViewProjectNode" />
               <item name="ng2-aot" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng2-aot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng2-aot" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -347,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.AOT: Build Production">
+  <component name="RunManager" selected="Compound.JIT: Dev Server + NodeServer (Development)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -437,7 +353,7 @@
       <updated>1502383700991</updated>
       <workItem from="1502383702409" duration="1777000" />
       <workItem from="1502385542771" duration="6285000" />
-      <workItem from="1502391924805" duration="3514000" />
+      <workItem from="1502391924805" duration="3701000" />
     </task>
     <task id="LOCAL-00001" summary="Import Angular Base config + Subscriber Lookup angular app, AOT + lazy loading WORKS">
       <created>1502386978298</created>
@@ -467,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502393446920</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Clean up config">
+      <created>1502395451442</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1502395451442</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11576000" />
+    <option name="totallyTimeSpent" value="11763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -513,7 +436,8 @@
     <MESSAGE value="Progress made" />
     <MESSAGE value="Compilation works again for lazy loaded modules" />
     <MESSAGE value="SCSS Compiles AOT - production and devserver!" />
-    <option name="LAST_COMMIT_MESSAGE" value="SCSS Compiles AOT - production and devserver!" />
+    <MESSAGE value="Clean up config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -914,14 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="109" lean-forward="false" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/node_modules/extract-text-webpack-plugin/dist/cjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -946,18 +862,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app-components/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="25" column="62" lean-forward="false" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
           <folding />
         </state>
       </provider>
