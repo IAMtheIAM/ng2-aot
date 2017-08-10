@@ -1,7 +1,7 @@
 {
   "app": {
     "js": "js/app.bundle.js",
-    "css": "/css/app.style.css?9ce32706f524b0579781"
+    "css": "/css/app.style.css?9c130f939da2ecedbe37"
   },
   "commons": {
     "js": "js/commons.bundle.js"

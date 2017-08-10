@@ -54,54 +54,15 @@ module.exports = {
   entry: {
     app: './src/app-components/app/main.jit.ts'
   },
-  // output: {
-  //   path: path.resolve(__dirname, './dist/'),
-  //   publicPath: '/dist/',
-  //   filename: '[name].bundle.js',
-  //   chunkFilename: '[id].chunk.js'
-  // },
   module: {
     loaders: [
-      // { test: /\.scss$/, loaders: ['raw-loader', 'sass-loader'] },
-
-      // {
-      //   test: /\.scss$/, loaders:
-      //   [
-      //     'raw-loader', 'sass-loader?sourceMap',
-      //     {
-      //       loader: 'sass-resources-loader',
-      //       options: {
-      //         resources: [
-      //           './src/assets/styles/variables.scss',
-      //           './src/assets/styles/mixins.scss']
-      //       }
-      //     }, /**
-      //    * The sass-vars-loader will convert any module.exports of a .JS or .JSON file into valid SASS
-      //    * and append to the beginning of each .scss file loaded.
-      //    *
-      //    * See: https://github.com/epegzz/sass-vars-loader
-      //    */
-      //     {
-      //       loader: '@epegzz/sass-vars-loader?',
-      //       options: querystring.stringify({
-      //         vars: JSON.stringify({
-      //           susyIsDevServer: susyIsDevServer
-      //         })
-      //       })
-      //     }
-      //   ] // dev mode
-      // },
-
-      {
-        test: /\.component\.scss$/,
-        use: ['raw-loader']
-      },
       {
         test: /\.(scss)$/,
-        exclude: /\.component\.scss$/,
         use:
           isDevServer ? [
-              'style-loader',
+              {
+                loader: 'style-loader',
+              },
               {
                 loader: 'css-loader',
                 options: { sourceMap: true }
@@ -121,9 +82,11 @@ module.exports = {
                     './src/assets/styles/variables.scss',
                     './src/assets/styles/mixins.scss']
                 }
-              }, /**
-               * The sass-vars-loader will convert any module.exports of a .JS or .JSON file into valid SASS
-               * and append to the beginning of each .scss file loaded.
+              },
+              /**
+               * The sass-vars-loader will convert the 'vars' property or any module.exports of
+               * a .JS or .JSON file into valid SASS and append to the beginning of each
+               * .scss file loaded.
                *
                * See: https://github.com/epegzz/sass-vars-loader
                */
@@ -172,26 +135,11 @@ module.exports = {
             publicPath: '/' // 'string' override the publicPath setting for this loader
           })
       },
-      // { test: /\.css$/, loader: 'raw-loader' },
-      {
-        test: /\.component\.css$/,
-        use: ['raw-loader']
-      },
-      {
-        test: /\.css$/,
-        exclude: /\.component\.css$/,
-        use: ['style-loader']
-      },
-
+      { test: /\.css$/, loader: 'raw-loader' },
       { test: /\.html$/, loader: 'raw-loader' },
       { test: /\.ts$/, loader: ['@ngtools/webpack'] }
     ]
   },
-  // plugins: [
-  //   new ngToolsWebpack.AotPlugin({
-  //     tsConfigPath: './tsconfig.aot.json'
-  //   })
-  // ],
   plugins: [
 
     new ngToolsWebpack.AotPlugin({
