@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Debug Atlas API / Web Server (Staging)" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" path-to-node="project" path-to-js-file="build/server.bundle.js" working-dir="$PROJECT_DIR$/backend-nodejs">
+  <configuration default="false" name="Debug Atlas API / Web Server (Staging)" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" path-to-node="project" path-to-js-file="app/server.js" working-dir="$PROJECT_DIR$/backend-nodejs">
     <envs>
       <env name="NODE_ENV" value="staging" />
     </envs>

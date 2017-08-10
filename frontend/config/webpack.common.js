@@ -52,7 +52,7 @@ module.exports = {
     extensions: ['.ts', '.js', '.scss', '.css', '.html', '.json']
   },
   entry: {
-    app: './src/app-components/app/main.jit.ts'
+    app: './src/app-components/app/app.bootstrap.ts'
   },
   module: {
     loaders: [

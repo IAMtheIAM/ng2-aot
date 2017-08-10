@@ -1,6 +1,6 @@
-import {Http, Response} from '@angular/http';
-import {Injectable} from '@angular/core';
-import {Observable} from 'rxjs/Observable';
+import { Http, Response } from '@angular/http';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class DataService {
@@ -22,8 +22,7 @@ export class DataService {
             return this.http.get(url)
                 .map(response => <Array<object>>(<Response>response).json())
                 .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
-        }
-        else {
+        } else {
             return this.http.get(url)
                 .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
         }
@@ -35,8 +34,7 @@ export class DataService {
             return this.http.post(this._baseUri, data)
                 .map(response => <Array<object>>(<Response>response).json())
                 .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
-        }
-        else {
+        } else {
             return this.http.post(this._baseUri, data)
                 .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
         }
@@ -47,8 +45,7 @@ export class DataService {
             return this.http.put(this._baseUri, data)
                 .map(response => <Array<object>>(<Response>response).json())
                 .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
-        }
-        else {
+        } else {
             return this.http.put(this._baseUri, data)
                 .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
         }
