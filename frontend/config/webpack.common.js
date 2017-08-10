@@ -49,7 +49,7 @@ const outputDir = helpers.paths.outputDir;
 
 module.exports = {
   resolve: {
-    extensions: ['.ts', '.js', '.scss', '.css', '.html', '.json'],
+    extensions: ['.ts', '.js', '.scss', '.css', '.html', '.json']
   },
   entry: {
     app: './src/app-components/app/main.jit.ts'
@@ -64,97 +64,125 @@ module.exports = {
     loaders: [
       // { test: /\.scss$/, loaders: ['raw-loader', 'sass-loader'] },
 
-
+      // {
+      //   test: /\.scss$/, loaders:
+      //   [
+      //     'raw-loader', 'sass-loader?sourceMap',
+      //     {
+      //       loader: 'sass-resources-loader',
+      //       options: {
+      //         resources: [
+      //           './src/assets/styles/variables.scss',
+      //           './src/assets/styles/mixins.scss']
+      //       }
+      //     }, /**
+      //    * The sass-vars-loader will convert any module.exports of a .JS or .JSON file into valid SASS
+      //    * and append to the beginning of each .scss file loaded.
+      //    *
+      //    * See: https://github.com/epegzz/sass-vars-loader
+      //    */
+      //     {
+      //       loader: '@epegzz/sass-vars-loader?',
+      //       options: querystring.stringify({
+      //         vars: JSON.stringify({
+      //           susyIsDevServer: susyIsDevServer
+      //         })
+      //       })
+      //     }
+      //   ] // dev mode
+      // },
 
       {
-        test: /\.scss$/, loaders:
-        [
-          'raw-loader', 'sass-loader?sourceMap',
-          {
-            loader: 'sass-resources-loader',
-            options: {
-              resources: [
-                './src/assets/styles/variables.scss',
-                './src/assets/styles/mixins.scss']
-            }
-          }, /**
-         * The sass-vars-loader will convert any module.exports of a .JS or .JSON file into valid SASS
-         * and append to the beginning of each .scss file loaded.
-         *
-         * See: https://github.com/epegzz/sass-vars-loader
-         */
-          {
-            loader: '@epegzz/sass-vars-loader?',
-            options: querystring.stringify({
-              vars: JSON.stringify({
-                susyIsDevServer: susyIsDevServer
-              })
-            })
-          }
-        ] // dev mode
+        test: /\.component\.scss$/,
+        use: ['raw-loader']
+      },
+      {
+        test: /\.(scss)$/,
+        exclude: /\.component\.scss$/,
+        use:
+          isDevServer ? [
+              'style-loader',
+              {
+                loader: 'css-loader',
+                options: { sourceMap: true }
+              },
+              {
+                loader: 'postcss-loader',
+                options: { postcss: [AutoPrefixer(autoPrefixerOptions)], sourceMap: true }
+              },
+              {
+                loader: 'sass-loader',
+                options: { sourceMap: true }
+              },
+              {
+                loader: 'sass-resources-loader',
+                options: {
+                  resources: [
+                    './src/assets/styles/variables.scss',
+                    './src/assets/styles/mixins.scss']
+                }
+              }, /**
+               * The sass-vars-loader will convert any module.exports of a .JS or .JSON file into valid SASS
+               * and append to the beginning of each .scss file loaded.
+               *
+               * See: https://github.com/epegzz/sass-vars-loader
+               */
+              {
+                loader: '@epegzz/sass-vars-loader?',
+                options: querystring.stringify({
+                  vars: JSON.stringify({
+                    susyIsDevServer: susyIsDevServer
+                  })
+                })
+              }] : // dev mode
+          ExtractTextPlugin.extract({
+            fallback: "css-loader",
+            use: [
+              {
+                loader: 'css-loader',
+                options: { sourceMap: true }
+              },
+              {
+                loader: 'postcss-loader',
+                options: { postcss: [AutoPrefixer(autoPrefixerOptions)], sourceMap: true }
+              },
+              {
+                loader: 'sass-loader',
+                options: { sourceMap: true }
+              },
+              {
+                loader: 'sass-resources-loader',
+                options: {
+                  resources: [
+                    './src/assets/styles/variables.scss',
+                    './src/assets/styles/mixins.scss']
+                }
+              }, {
+                loader: '@epegzz/sass-vars-loader?',
+                options: querystring.stringify({
+                  vars: JSON.stringify({
+                    susyIsDevServer: susyIsDevServer
+                  })
+                  // // Or use 'files" object to specify vars in an external .js or .json file
+                  // files: [
+                  //    path.resolve(helpers.paths.appRoot + '/assets/styles/sass-js-variables.js')
+                  // ],
+                })
+              }],
+            publicPath: '/' // 'string' override the publicPath setting for this loader
+          })
+      },
+      // { test: /\.css$/, loader: 'raw-loader' },
+      {
+        test: /\.component\.css$/,
+        use: ['raw-loader']
+      },
+      {
+        test: /\.css$/,
+        exclude: /\.component\.css$/,
+        use: ['style-loader']
       },
 
-
-
-
-      // {
-      //   test: /\.(scss)$/,
-      //   use: isDevServer ? [
-      //       'style', 'css?sourceMap',
-      //       {
-      //         loader: 'postcss',
-      //         options: { postcss: [AutoPrefixer(autoPrefixerOptions)], sourceMap: true }
-      //       }, 'sass-loader?sourceMap',
-      //       {
-      //         loader: 'sass-resources-loader',
-      //         options: {
-      //           resources: [
-      //             './src/assets/styles/variables.scss',
-      //             './src/assets/styles/mixins.scss']
-      //         }
-      //       }, /**
-      //        * The sass-vars-loader will convert any module.exports of a .JS or .JSON file into valid SASS
-      //        * and append to the beginning of each .scss file loaded.
-      //        *
-      //        * See: https://github.com/epegzz/sass-vars-loader
-      //        */
-      //       {
-      //         loader: '@epegzz/sass-vars-loader?',
-      //         options: querystring.stringify({
-      //           vars: JSON.stringify({
-      //             susyIsDevServer: susyIsDevServer
-      //           })
-      //         })
-      //       }] : // dev mode
-      //        ExtractTextPlugin.extract({
-      //          fallback: "css-loader",
-      //          use: [
-      //            'css?sourceMap', {
-      //              loader: 'postcss',
-      //              options: { postcss: [AutoPrefixer(autoPrefixerOptions)], sourceMap: true }
-      //            }, 'sass-loader?sourceMap', {
-      //              loader: 'sass-resources-loader',
-      //              options: {
-      //                resources: [
-      //                  './src/assets/styles/variables.scss',
-      //                  './src/assets/styles/mixins.scss']
-      //              }
-      //            }, {
-      //              loader: '@epegzz/sass-vars-loader?',
-      //              options: querystring.stringify({
-      //                vars: JSON.stringify({
-      //                  susyIsDevServer: susyIsDevServer
-      //                })
-      //                // // Or use 'files" object to specify vars in an external .js or .json file
-      //                // files: [
-      //                //    path.resolve(helpers.paths.appRoot + '/assets/styles/sass-js-variables.js')
-      //                // ],
-      //              })
-      //            }],
-      //          publicPath: '/' // 'string' override the publicPath setting for this loader
-      //        })
-      // },
-      { test: /\.css$/, loader: 'raw-loader' },
       { test: /\.html$/, loader: 'raw-loader' },
       { test: /\.ts$/, loader: ['@ngtools/webpack'] }
     ]
@@ -166,10 +194,9 @@ module.exports = {
   // ],
   plugins: [
 
-
-      new ngToolsWebpack.AotPlugin({
-        tsConfigPath: './tsconfig.aot.json'
-      }),
+    new ngToolsWebpack.AotPlugin({
+      tsConfigPath: './tsconfig.aot.json'
+    }),
 
     new ProgressBarPlugin({
       format: '  build [:bar] ' + chalk.green.bold(':percent') + ' (:elapsed seconds)',

@@ -1,8 +1,9 @@
 {
   "app": {
-    "js": "/dist/app.bundle.js"
+    "js": "js/app.bundle.js",
+    "css": "/css/app.style.css?9ce32706f524b0579781"
   },
   "commons": {
-    "js": "/dist/commons.bundle.js"
+    "js": "js/commons.bundle.js"
   }
 }
