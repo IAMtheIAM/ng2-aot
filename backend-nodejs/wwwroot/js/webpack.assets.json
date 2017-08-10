@@ -1,0 +1,8 @@
+{
+  "app": {
+    "js": "js/app.bundle.js"
+  },
+  "commons": {
+    "js": "js/commons.bundle.js"
+  }
+}

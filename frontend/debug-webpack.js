@@ -1,5 +1,5 @@
 const webpack = require("webpack");
-const webpackProd = require("./config/webpack.config");
+const webpackProd = require("./config/webpack.common");
 /*
     Uses CopyWebpackPlugin to update all .html files provided
     from the NowBanking.Static folder.
