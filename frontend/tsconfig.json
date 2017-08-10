@@ -22,5 +22,5 @@
     "!./node_modules/**",
     "./src/custom-typings.d.ts",
     "./src/types/require.d.ts"
-  ],
+  ]
 }

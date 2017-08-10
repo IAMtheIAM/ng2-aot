@@ -1,8 +1,8 @@
 {
   "app": {
-    "js": "js/app.bundle.js"
+    "js": "/dist/app.bundle.js"
   },
   "commons": {
-    "js": "js/commons.bundle.js"
+    "js": "/dist/commons.bundle.js"
   }
 }

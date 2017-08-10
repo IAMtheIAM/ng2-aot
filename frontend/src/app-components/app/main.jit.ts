@@ -29,7 +29,7 @@ import { AppModule } from './app.module';
 
 /**
  * zone.js MUST be imported AFTER AppModule/AppModuleNgFactory, otherwise it will throw
- * error "ZoneAware promise has been overriden" during bootstrapping
+ * error "ZoneAware promise has been overridden" during bootstrapping
  */
 import 'zone.js/dist/zone';
 

@@ -183,98 +183,98 @@ module.exports = {
      * See: https://github.com/shlomiassaf/webpack-dll-bundles-plugin
      */
 
-    new DllBundlesPlugin({
-      bundles: {
-        polyfills: [
-          'core-js',
-          'ts-helpers'
-        ],
-        vendors: [
-          '@angular/platform-browser',
-          '@angular/platform-browser-dynamic',
-          '@angular/core',
-          '@angular/common',
-          '@angular/forms',
-          '@angular/http',
-          '@angular/router',
-          '@angularclass/hmr',
-          'rxjs',
-          'jwt-decode'
-        ]
-      },
-      dllDir: helpers.root(outputDir + '/dlls'),
-      // bundleExtension: '.dll.bundle.js',
-      sourceMapFilename: '/maps/[name].map',
-      chunkFilename: '/chunks/[name].chunk.js',
-
-      webpackConfig: webpackMergeDll(commonConfig, {
-        devtool: 'cheap-module-source-map',
-        plugins: [ // These plugins are for the DLL build only, will not be used in dev or production builds.
-
-          new OptimizeJsPlugin({
-            sourceMap: false // prod
-          }),
-
-          new UglifyJsPlugin({
-            // DLLS is build in "Production" mode always, since it is not code I will be debugging (that's why its in the DLL bundle anyway)
-            beautify: false, //prod
-            output: {
-              comments: false
-            }, //prod
-            mangle: {
-              screw_ie8: true
-            }, //prod
-            compress: {
-              screw_ie8: true,
-              warnings: false,
-              conditionals: true,
-              unused: true,
-              comparisons: true,
-              sequences: true,
-              dead_code: true,
-              evaluate: true,
-              if_return: true,
-              join_vars: true,
-              negate_iife: false // we need this for lazy v8
-            },
-            comments: false, //prod
-            sourceMap: false //prod
-          }),
-
-          new ExtractTextPlugin({
-            filename: '/css/[name].style.css?[hash]',
-            disable: false,
-            allChunks: true
-          }),
-
-          new webpack.DllPlugin({
-            // The path to the manifest file which maps between
-            // modules included in a bundle and the internal IDs
-            // within that bundle
-            path: helpers.root(outputDir + '/dlls/[name]-manifest.json'),
-
-            // The name of the global variable which the library's
-            // require function has been assigned to. This must match the
-            // output.library option above
-            name: '[name]_lib'
-
-          }),
-
-          new webpack.optimize.CommonsChunkPlugin({
-            name: ['polyfills', 'vendors'].reverse()
-          }),
-
-          new CompressionPlugin({
-            asset: "[path].gz",
-            test: /\.(css|html|js|json|map)(\?{0}(?=\?|$))/,
-            threshold: 2 * 1024,
-            algorithm: "gzip",
-            minRatio: 0.8
-          })
-
-        ]
-      })
-    }),
+    // new DllBundlesPlugin({
+    //   bundles: {
+    //     polyfills: [
+    //       'core-js',
+    //       'ts-helpers'
+    //     ],
+    //     vendors: [
+    //       '@angular/platform-browser',
+    //       '@angular/platform-browser-dynamic',
+    //       '@angular/core',
+    //       '@angular/common',
+    //       '@angular/forms',
+    //       '@angular/http',
+    //       '@angular/router',
+    //       '@angularclass/hmr',
+    //       'rxjs',
+    //       'jwt-decode'
+    //     ]
+    //   },
+    //   dllDir: helpers.root(outputDir + '/dlls'),
+    //   // bundleExtension: '.dll.bundle.js',
+    //   sourceMapFilename: '/maps/[name].map',
+    //   chunkFilename: '/chunks/[name].chunk.js',
+    //
+    //   webpackConfig: webpackMergeDll(commonConfig, {
+    //     devtool: 'cheap-module-source-map',
+    //     plugins: [ // These plugins are for the DLL build only, will not be used in dev or production builds.
+    //
+    //       new OptimizeJsPlugin({
+    //         sourceMap: false // prod
+    //       }),
+    //
+    //       new UglifyJsPlugin({
+    //         // DLLS is build in "Production" mode always, since it is not code I will be debugging (that's why its in the DLL bundle anyway)
+    //         beautify: false, //prod
+    //         output: {
+    //           comments: false
+    //         }, //prod
+    //         mangle: {
+    //           screw_ie8: true
+    //         }, //prod
+    //         compress: {
+    //           screw_ie8: true,
+    //           warnings: false,
+    //           conditionals: true,
+    //           unused: true,
+    //           comparisons: true,
+    //           sequences: true,
+    //           dead_code: true,
+    //           evaluate: true,
+    //           if_return: true,
+    //           join_vars: true,
+    //           negate_iife: false // we need this for lazy v8
+    //         },
+    //         comments: false, //prod
+    //         sourceMap: false //prod
+    //       }),
+    //
+    //       new ExtractTextPlugin({
+    //         filename: '/css/[name].style.css?[hash]',
+    //         disable: false,
+    //         allChunks: true
+    //       }),
+    //
+    //       new webpack.DllPlugin({
+    //         // The path to the manifest file which maps between
+    //         // modules included in a bundle and the internal IDs
+    //         // within that bundle
+    //         path: helpers.root(outputDir + '/dlls/[name]-manifest.json'),
+    //
+    //         // The name of the global variable which the library's
+    //         // require function has been assigned to. This must match the
+    //         // output.library option above
+    //         name: '[name]_lib'
+    //
+    //       }),
+    //
+    //       new webpack.optimize.CommonsChunkPlugin({
+    //         name: ['polyfills', 'vendors'].reverse()
+    //       }),
+    //
+    //       new CompressionPlugin({
+    //         asset: "[path].gz",
+    //         test: /\.(css|html|js|json|map)(\?{0}(?=\?|$))/,
+    //         threshold: 2 * 1024,
+    //         algorithm: "gzip",
+    //         minRatio: 0.8
+    //       })
+    //
+    //     ]
+    //   })
+    // }),
 
     new AssetsPlugin({
       path: helpers.root(`./${outputDir}/js`),
