@@ -1,9 +1,9 @@
 {
   "app": {
-    "js": "js/app.bundle.js",
+    "js": "http://localhost:4000/js/app.bundle.js",
     "css": "/css/app.style.css?9c130f939da2ecedbe37"
   },
   "commons": {
-    "js": "js/commons.bundle.js"
+    "js": "http://localhost:4000/js/commons.bundle.js"
   }
 }

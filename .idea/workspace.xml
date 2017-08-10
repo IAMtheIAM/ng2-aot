@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f2c202d0-17d6-45f3-b265-00c6edcfbc4b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend-nodejs/wwwroot/js/webpack.assets.json" afterPath="$PROJECT_DIR$/backend-nodejs/wwwroot/js/webpack.assets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/404/notfound404.style.scss" afterPath="$PROJECT_DIR$/frontend/src/app-components/404/notfound404.style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/login/login.component.ts" afterPath="$PROJECT_DIR$/frontend/src/app-components/login/login.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/login/login.style.scss" afterPath="$PROJECT_DIR$/frontend/src/app-components/login/login.style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/nav/footer/nav-footer.style.scss" afterPath="$PROJECT_DIR$/frontend/src/app-components/nav/footer/nav-footer.style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/nav/footer/nav-footer.template.html" afterPath="$PROJECT_DIR$/frontend/src/app-components/nav/footer/nav-footer.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/nav/header/nav-header.style.scss" afterPath="$PROJECT_DIR$/frontend/src/app-components/nav/header/nav-header.style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/nav/sidebar/nav-sidebar.component.ts" afterPath="$PROJECT_DIR$/frontend/src/app-components/nav/sidebar/nav-sidebar.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/nav/sidebar/nav-sidebar.style.scss" afterPath="$PROJECT_DIR$/frontend/src/app-components/nav/sidebar/nav-sidebar.style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/services/data.service.ts" afterPath="$PROJECT_DIR$/frontend/src/app-components/services/data.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-components/services/index.ts" afterPath="$PROJECT_DIR$/frontend/src/app-components/services/index.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,53 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/webpack.common.js">
+      <file leaf-file-name="data.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app-components/services/data.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="environment.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app-components/app/environment.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app-components/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="99" column="7" lean-forward="false" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="578">
+              <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -104,6 +73,7 @@
         <option value="$PROJECT_DIR$/frontend/tsconfig.json" />
         <option value="$PROJECT_DIR$/frontend/config/webpack.common.js" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
+        <option value="$PROJECT_DIR$/frontend/src/app-components/services/data.service.ts" />
       </list>
     </option>
   </component>
@@ -212,7 +182,32 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app-components" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="+subscriber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng2-aot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng2-aot" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app-components" type="462c0819:PsiDirectoryNode" />
+              <item name="+subscriber" type="462c0819:PsiDirectoryNode" />
+              <item name="lookup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng2-aot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng2-aot" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app-components" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng2-aot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng2-aot" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app-components" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,19 +230,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Source\GitHub\ng2-aot\frontend" />
-      <recent name="C:\Source\GitHub\ng2-aot\frontend\config" />
-      <recent name="C:\Source\GitHub\ng2-aot\frontend\src" />
-      <recent name="C:\Source\GitHub\ng2-aot\frontend\src\app-components" />
-      <recent name="C:\Source\GitHub\ng2-aot" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Source\GitHub\ng2-aot\frontend\config" />
       <recent name="C:\Source\GitHub\ng2-aot\frontend\src\app-components\app" />
       <recent name="C:\Source\GitHub\ng2-aot\frontend\src\app-components" />
       <recent name="C:\Source\GitHub\ng2-aot\frontend\src" />
       <recent name="C:\Source\GitHub\ng2-aot\frontend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Source\GitHub\ng2-aot\frontend\src\app-components" />
+      <recent name="C:\Source\GitHub\ng2-aot\frontend" />
+      <recent name="C:\Source\GitHub\ng2-aot\frontend\config" />
+      <recent name="C:\Source\GitHub\ng2-aot\frontend\src" />
+      <recent name="C:\Source\GitHub\ng2-aot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,7 +347,7 @@
       <updated>1502383700991</updated>
       <workItem from="1502383702409" duration="1777000" />
       <workItem from="1502385542771" duration="6285000" />
-      <workItem from="1502391924805" duration="3711000" />
+      <workItem from="1502391924805" duration="4112000" />
     </task>
     <task id="LOCAL-00001" summary="Import Angular Base config + Subscriber Lookup angular app, AOT + lazy loading WORKS">
       <created>1502386978298</created>
@@ -396,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502395636151</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Checkin production build files">
+      <created>1502395651328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502395651329</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11773000" />
+    <option name="totallyTimeSpent" value="12174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -443,7 +445,8 @@
     <MESSAGE value="Compilation works again for lazy loaded modules" />
     <MESSAGE value="SCSS Compiles AOT - production and devserver!" />
     <MESSAGE value="Clean up config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up config" />
+    <MESSAGE value="Checkin production build files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkin production build files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -603,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/404/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/main.jit.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -628,6 +624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -677,13 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -876,6 +866,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/nav/footer/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/login/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/404/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/services/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/+subscriber/lookup/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/config/webpack.common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -884,10 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app-components/services/data.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        <state relative-caret-position="578">
+          <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding />
         </state>
       </provider>
