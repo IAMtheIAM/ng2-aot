@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Debug Webpack (Development)" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" path-to-node="project" path-to-js-file="webpack.debugger.cli.js" working-dir="$PROJECT_DIR$/frontend">
+    <envs>
+      <env name="NODE_ENV" value="development" />
+    </envs>
+    <method />
+  </configuration>
+</component>

@@ -1,0 +1,5 @@
+#!/bin/bash
+./backend-nodejs/config/git-hooks/pre-commit.sh
+RESULT=$?
+[ $RESULT -ne 0 ] && exit 1
+exit 0

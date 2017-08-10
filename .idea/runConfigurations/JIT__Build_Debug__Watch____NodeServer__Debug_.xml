@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JIT: Build Debug (Watch) + NodeServer (Debug)" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration" singleton="false">
+    <toRun type="js.build_tools.npm" name="JIT: Build Debug (Watch)" />
+    <toRun type="js.build_tools.npm" name="Run NodeServer - Live Reload (Debug)" />
+    <method />
+  </configuration>
+</component>

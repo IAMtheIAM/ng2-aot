@@ -1,0 +1,66 @@
+<div class="card-container login-form">
+   <div class="welcome-message text-align-center">
+   </div>
+
+   <md-card>
+      <form #form="ngForm" (ngSubmit)="getSelectedSubscriberData(subscriber.value)"
+         [class.has-danger]="searchFailed">
+         <md-input-container>
+            <input #subscriber mdInput
+               [ngbTypeahead]="lookupSubscriber"
+               [(ngModel)]="model"
+               [formControl]="lookupSubscriberControl"
+               (selectItem)="getSelectedSubscriberData($event.item)"
+               type="text"
+               placeholder="Search by Name or ADRE License #">
+            <button type="submit" mdSuffix class="material-icons">search</button>
+         </md-input-container>
+
+         <span *ngIf="searching"><md-progress-spinner mode="indeterminate"></md-progress-spinner></span>
+         <div class="form-control-feedback" *ngIf="searchFailed">Sorry, suggestions could not be loaded.</div>
+
+         <!--<md-input-container>-->
+         <!--<input mdInput type="text" ngxTypeahead-->
+         <!--[value]="query"-->
+         <!--[taUrl]="url"-->
+         <!--[taParams]="params"-->
+         <!--(taSelected)="handleResultSelected($event)">-->
+         <!--<button type="submit" mdSuffix class="material-icons">search</button>-->
+         <!--</md-input-container>-->
+
+      </form>
+
+   </md-card>
+
+
+   <!--The Materialize way-->
+   <!--<div class="card">-->
+   <!--<div class="card-content">-->
+   <!--<form role="form" (submit)="login($event, username.value, password.value)">-->
+
+   <!--<div class="row">-->
+   <!--<div class="input-field">-->
+   <!--&lt;!&ndash;<i class="material-icons suffix">search</i>&ndash;&gt;-->
+   <!--<input type="text" #username class="" id="adre_number" value="">-->
+   <!--<label for="adre_number">Search by Name or ADRE License #</label>-->
+
+   <!--</div>-->
+   <!--</div>-->
+
+   <!--<button class="btn btn-block btn-large waves-effect waves-light login-submit" type="submit" name="action">-->
+   <!--Search<i class="material-icons right">search</i>-->
+   <!--</button>-->
+   <!--</form>-->
+   <!--</div>-->
+
+
+   <!--</div>-->
+   <!--<div class="row">-->
+   <!--<div class="input-field">-->
+   <!--<input type="checkbox" id="rememberMe1" value="" class="rememberMe" />&lt;!&ndash;<label for="rememberMe1">Remember me</label>&ndash;&gt;-->
+
+   <!--<span class="float-right"><a href="/forgotpassword">Need help?</a></span><br>-->
+   <!--&lt;!&ndash;<span class="float-right"><a (click)="logout()">Logout</a></span>&ndash;&gt;-->
+   <!--</div>-->
+   <!--</div>-->
+</div>

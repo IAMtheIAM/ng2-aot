@@ -1,0 +1,117 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "app/routes/index/index.router.js": "./app/routes/index/index.router.js",
+      "external \"path\"": 0,
+      "node_modules/webpack/hot/log-apply-result.js": "./node_modules/webpack/hot/log-apply-result.js",
+      "app/server.js": "./app/server.js",
+      "node_modules/webpack/hot/signal.js": "./node_modules/webpack/hot/signal.js",
+      "app": "./app recursive",
+      "app/routes/api ../../../../.(js)$": "./app/routes/api recursive \\.(js)$",
+      "app/routes/api/a.router.js": "./app/routes/api/a.router.js",
+      "app/routes/api/b.router.js": "./app/routes/api/b.router.js",
+      "app/routes/error/error.router.js": "./app/routes/error/error.router.js",
+      "app/routes/index/exclude.router.js": "./app/routes/index/exclude.router.js",
+      "config/env-config.js": "./config/env-config.js",
+      "config/server-config.js": "./config/server-config.js",
+      "external \"express\"": 1,
+      "external \"body-parser\"": 2,
+      "external \"compression\"": 3,
+      "external \"cookie-parser\"": 4,
+      "external \"cors\"": 5,
+      "external \"glob\"": 6,
+      "external \"method-override\"": 7,
+      "external \"morgan\"": 8,
+      "multi webpack/hot/signal.js app/server.js": 9
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "./app/routes/index/index.router.js": "./app/routes/index/index.router.js",
+      "./node_modules/webpack/hot/log-apply-result.js": "./node_modules/webpack/hot/log-apply-result.js",
+      "./app/server.js": "./app/server.js",
+      "./node_modules/webpack/hot/signal.js": "./node_modules/webpack/hot/signal.js",
+      "./app recursive": "./app recursive",
+      "./app/routes/api recursive \\.(js)$": "./app/routes/api recursive \\.(js)$",
+      "./app/routes/api/a.router.js": "./app/routes/api/a.router.js",
+      "./app/routes/api/b.router.js": "./app/routes/api/b.router.js",
+      "./app/routes/error/error.router.js": "./app/routes/error/error.router.js",
+      "./app/routes/index/exclude.router.js": "./app/routes/index/exclude.router.js",
+      "./config/env-config.js": "./config/env-config.js",
+      "./config/server-config.js": "./config/server-config.js"
+    }
+  },
+  "chunks": {
+    "byName": {
+      "server": 0
+    },
+    "byBlocks": {},
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "prepreHash": "x",
+  "preHash": "4e3a6bb797bcda0888cc",
+  "hash": "4f9941509ca38daa865e",
+  "moduleHashs": {
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\app\\routes\\index\\index.router.js": "7faab33175ec53288d9a96c823bce058",
+    "external \"path\"": "92fe7aa0867e64055f905e018faa57de",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\node_modules\\webpack\\hot\\log-apply-result.js": "bd2610865f3769d3ef82fad0c31ae2ba",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\app\\server.js": "3a337d9e2490062bc1dd87c6983517da",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\node_modules\\webpack\\hot\\signal.js": "ac425a31994f6b45f83cce015bd559c8",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\app": "19599ee9914a2ded56d34b77ac96df32",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\app\\routes\\api /\\.(js)$/": "3ac375ece593985a70c6838dc1bd6358",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\app\\routes\\api\\a.router.js": "cab862ec1e98c62eccd94250237a919a",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\app\\routes\\api\\b.router.js": "2d1902cb023b2470d77d5827fb00b646",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\app\\routes\\error\\error.router.js": "cd63da35fd09853a3b11982833d10aaf",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\app\\routes\\index\\exclude.router.js": "f3978e822df1a1472065eb22dfda89d3",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\config\\env-config.js": "ab431f0e582ae8f9dfa086bf92e299ab",
+    "C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs\\config\\server-config.js": "5218f3a099f0876c53179d6a0c0a0fae",
+    "external \"express\"": "66cfc3ffdd09c1196ae88554396b371a",
+    "external \"body-parser\"": "09b3994f1c3932e792ad6dc7433e1698",
+    "external \"compression\"": "7d18d7937960a51364bb397be8fead0a",
+    "external \"cookie-parser\"": "f951a561ac9f225b9a775aab609b7f2a",
+    "external \"cors\"": "eb32faf184a37c301fdbb771649efa2a",
+    "external \"glob\"": "9ead5f3eb49efe638a3e1c3642e669db",
+    "external \"method-override\"": "9621b74db7aabf0ebe4136c398f1824e",
+    "external \"morgan\"": "a5d32dc741bd6563f708c13e839e5d50",
+    "multi webpack/hot/signal.js C:\\Source\\Atlas\\Atlas.Association.Signup\\backend-nodejs/app/server.js": "b9a4c1914908d4f24b42bc2fa391dcce"
+  },
+  "chunkHashs": {
+    "0": "6bd3ef23ebd842f43aaa8762357eaa56"
+  },
+  "chunkModuleIds": {
+    "0": [
+      "./app recursive",
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      "./node_modules/webpack/hot/log-apply-result.js",
+      "./app/routes/api recursive \\.(js)$",
+      9,
+      "./app/routes/api/a.router.js",
+      "./app/routes/api/b.router.js",
+      "./app/routes/error/error.router.js",
+      "./app/routes/index/exclude.router.js",
+      "./app/routes/index/index.router.js",
+      "./app/server.js",
+      "./config/env-config.js",
+      "./config/server-config.js",
+      "./node_modules/webpack/hot/signal.js"
+    ]
+  }
+}

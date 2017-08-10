@@ -1,0 +1,33 @@
+//---------------------------------------------//
+// Susy config (3.0)
+// Docs - http://oddbird.net/susy/docs/a-config.html
+//---------------------------------------------//
+
+//@import '../../../assets/styles/appwide-metastyles.scss';
+
+$susy: (
+   columns: susy-repeat(24),
+   container: $hd-widescreen,
+   spread: 'narrow',
+   container-spread: 'narrow',
+   global-box-sizing: border-box,
+   gutters: 1/4, //<gutter-width>/<column-width> = // 20px gutters & 70px columns
+   gutter-position: after,
+   use-custom: (
+      clearfix: false,
+      background-image: true,
+      breakpoint: true,
+      box-sizing: false,
+   ),
+   debug: (
+      image: $susyIsDevServer,
+      output: overlay, //background, overlay
+      toggle: bottom right,
+   ),
+);
+
+.app-container {
+   //@include container(100%);
+   padding: 0;
+}
+

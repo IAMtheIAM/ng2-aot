@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AOT: Compile + Build Prod + NodeServer (Prod)" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration" singleton="false">
+    <toRun type="js.build_tools.npm" name="AOT: Build Production" />
+    <toRun type="js.build_tools.npm" name="Run NodeServer - Live Reload (Production)" />
+    <method />
+  </configuration>
+</component>

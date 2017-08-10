@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "mapRoot": "",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+
+    "outDir": "lib",
+    "skipLibCheck": true,
+    "baseUrl": "."
+  },
+  "filesGlob": [
+    "./src/**/*.ts",
+    "!./node_modules/**",
+    "./src/custom-typings.d.ts",
+    "./src/types/require.d.ts"
+  ],
+}
